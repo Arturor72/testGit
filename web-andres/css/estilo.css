@@ -1,0 +1,89 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin:0;
+
+}
+body{
+	margin: 0;
+	font-family: sans-serif;
+}
+
+.menu{
+	
+	color: white;
+	text-align: center;
+	font-size: 14px;
+	height: 52px; /*47*/
+	position: relative;
+	margin: 0;
+	background: #a0ce00;
+
+
+}
+
+
+.logo{
+	float: left;
+}
+.opc-menu{
+display: inline-block;
+float: left;
+
+}
+.telf{
+	float: right;
+	font-weight:bold;
+	font-size: 16px;
+	padding: 15px;
+}
+.logo  a{
+	background: #A7D500;
+		display: block; /* CON ESTO YA PODEMOS USAR PADDING*/
+	padding: 15px;
+	text-decoration: none;
+	color: white;
+    font-weight:bold;
+    font-size: 15px;
+    margin-top: 0px;
+	
+	   /* EFECTO AL SOBREPONER SOBRE EL LOGOTIPO    */
+}
+.logo  a:hover{
+	background: black;   /* EFECTO AL SOBREPONER SOBRE EL LOGOTIPO    */
+	border-bottom: 1px solid black;
+}
+nav div ul{
+	list-style: none;
+	overflow: hidden;  /* CON ESTO EVITAMOS Q LO Q NO SEA PARTE DEL MENU SE SOBREPONGA */
+}
+nav div ul li{
+	float: left;
+}
+nav div ul li a{
+	display: block; /* CON ESTO YA PODEMOS USAR PADDING*/
+	padding: 15px;
+	text-decoration: none;
+	color: white;
+    font-weight:bold;
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+nav div ul li a:hover{    /*   EFECTO AL SOBREPONES SOBRE CADA OPCION DEL MENU  */
+	text-decoration: underline;
+	color: white;
+}
+
+.menu-bar{
+	display: none;
+}
+
+
+/*-------CLASE PARA Q EL MENU SE QUEDE PEGADO--------------*/
+.menu-fixed{
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	width: 100%;
+}

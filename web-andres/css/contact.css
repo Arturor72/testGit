@@ -1,0 +1,33 @@
+#contact{
+	text-align: center;
+	padding-top: 120px;
+	padding-bottom: 30px;
+	background-color: #F2F2F2;
+}
+
+
+#cont1{
+	font-size: 45px;
+	font-family: sans-serif;
+	margin-bottom: 10px;
+	color: black;
+}
+
+#cont2{
+	font-size: 22px;
+}
+
+#sc1, #sc2 {
+	padding: 10px;
+	text-align: left;
+}
+
+#sc2 p{
+	color: black;
+}
+
+
+#service-submit{
+	background-color: black;
+	color: white;
+}

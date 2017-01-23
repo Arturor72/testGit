@@ -1,0 +1,53 @@
+footer{
+	background: #6E6E6E;
+	text-align: center;
+	padding:10px;
+
+}
+
+
+/*--------------------MENU PIE DE PAGINA  ---------------------------------------------------*/
+.menupie{
+display: inline-block;
+
+}
+
+footer nav ul{
+	list-style: none;
+	overflow: hidden;  /* CON ESTO EVITAMOS Q LO Q NO SEA PARTE DEL MENU SE SOBREPONGA */
+}
+
+footer nav ul li{
+	float: left;
+}
+
+footer nav ul li a{
+	display: block; /* CON ESTO YA PODEMOS USAR PADDING*/
+	padding: 15px;
+	text-decoration: none;
+	color: white;
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+
+footer nav ul li a:hover{    /*   EFECTO AL SOBREPONES SOBRE CADA OPCION DEL MENU  */
+	color: white;
+	text-decoration: none;
+}
+/*------------------------------------------------------------------------------------*/
+
+.dir-footer{
+	color: white;
+	font-size: 25px;
+	padding-top: 15px;
+}
+
+@media only screen and (max-width:380px){
+
+.logopie img{
+
+		width: 70%;
+		height: auto;
+	}
+}

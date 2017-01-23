@@ -1,0 +1,64 @@
+/*--------------------------------------------*/
+@media only screen and (max-width:1075px){
+
+	.telf{
+		display: none;
+	}
+}
+
+@media only screen and (max-width:947px){
+
+	nav div ul li a{
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width:901px){
+   
+/*AQUI YA EL MENU SE CAMBIA A UN MODELO PARA MOVIL*/
+	.opc-menu{
+		width: 100%;
+		height: 20%;
+		margin: 0;
+		display: none;  /*   DEBIDO A Q NO ESTA FUNCIONANDO EL LEFT: -100%  ,FALTA CORREGIR AQUI Y DESCOMENTAR EN LA FUNCION Q SE ENCUENTRA EN EL "MENU-MOVIL.JS*/
+
+	}
+	 .opc-menu ul li{
+		float: none;
+		background: #F7F3C9;
+		border-bottom: 1px solid #A7D500;
+	}
+	nav div ul li a{
+		color: #A7D500;
+		font-size: 20px;
+
+	}
+
+	.menu-bar{
+	display: block;
+	float: right;
+	background: #a0ce00;
+	margin-right: 10px;
+	margin-top: 10px;
+	}
+
+	.menu-bar:hover{
+		background: #A7D500;  /*   COLOR AL SOBREPONER EL MAUSE X EL ICONO MENU */
+	}
+
+	.menu-bar{
+		text-decoration: none;
+		color: white;
+	}
+
+	.menu-bar #icono{
+		display: block;
+		font-weight: bold;
+		font-size: 28px; /* ESTO SIRVE PARA CAMBIAR EL TAMAÑO DEL ICONO*/
+		-webkit-box-sizing:border-box ;
+		-moz-box-sizing:border-box ;
+		box-sizing: border-box ;
+
+	}
+
+}

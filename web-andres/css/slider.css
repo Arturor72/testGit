@@ -1,0 +1,93 @@
+
+article{
+	background-image: url(../img/fondos/packman.jpg);
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#imgslider{
+	padding:0 auto;
+}
+
+#t1{
+
+	color: white;
+	font-size: 26px;
+	padding: 20px;
+	padding-bottom: 10px;
+}
+#t2{
+	color: #A7D500;
+	font-size: 26px;
+	padding-top:0px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+#t3 a{
+	color: #A7D500;
+	font-size: 26px;
+	padding-top:0px;
+	padding-left: 20px;
+	text-decoration: underline;
+}
+
+#t3 a:hover{
+	text-decoration: none;
+}
+#t4 {
+	text-align: center;
+	padding-top: 160px;
+	padding-bottom: 30px;
+}
+#t4 h1{
+	color:#a0ce00;
+	font-size: 45px;
+	font-weight:inherit;
+	font-family:sans-serif;
+}
+#t5{
+	color:white;
+	text-align: center;
+	font-size: 25px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#icono-slider{
+	padding-top: 20px;
+	padding-bottom: 50px;
+
+}
+
+#icono-slider a{
+	color: #a0ce00;
+	font-size: 15px;
+	border:2px solid #a0ce00;
+	border-radius: 100%;
+	padding:10px;
+}
+#icono-slider :hover{
+	background-color: #1d2023;
+	border-color: #1d2023;
+}
+
+#espacio{
+	background: black;
+	min-height: 50px;
+	opacity: 0.8;
+}
+
+
+
+@media only screen and (max-width:340px){
+
+#imgslider img{
+
+	width: 70%;
+	height: auto;
+	}
+}

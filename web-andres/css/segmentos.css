@@ -1,0 +1,61 @@
+
+#about{
+	text-align: center;
+	padding-top: 120px;
+	padding-bottom: 30px;
+
+}
+
+#t6{
+	font-size: 45px;
+	font-family: sans-serif;
+	margin-bottom: 10px;
+}
+#t7{
+	font-size: 22px;
+}
+
+#c1,#c2,#c3,#c4 {
+	    text-align: center;
+	}
+
+
+.tcliente{
+text-align: justify;
+font-family:cursive;
+color: #424242;
+font-size: 18px;
+
+}
+
+#fondosegmento {
+	background-image: url(../img/fondos/tapiz.jpg);
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 70px; 
+}
+
+
+#c4 h2{
+	color:#a0ce00;
+	font-size: 40px;
+
+	font-family:sans-serif;
+	font-weight: bold;
+}
+
+#c4 p{
+	color: white;
+	font-size: 20px;
+	font-family:sans-serif;
+}
+
+#conte-1{
+	padding-bottom: 70px;
+}
